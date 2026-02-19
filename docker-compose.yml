@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  discord-webhook-sender:
+    image: ghcr.io/btwonion/DiscordWebhookSender:latest
+    container_name: discord-webhook-sender
+    restart: unless-stopped
+    environment:
+      - DISCORD_TOKEN=${DISCORD_TOKEN}
+      - WEBHOOK_URL=${WEBHOOK_URL}
