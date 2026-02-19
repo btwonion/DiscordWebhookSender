@@ -2,7 +2,7 @@ name: Build and Publish to GHCR
 
 on:
   push:
-    branches: [ "main" ] # Triggers on every push to the main branch
+    branches: [ "master" ] # Triggers on every push to the main branch
   workflow_dispatch:      # Allows you to trigger it manually
 
 env:
