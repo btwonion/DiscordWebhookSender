@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   discord-webhook-sender:
-    image: ghcr.io/btwonion/DiscordWebhookSender:latest
+    image: ghcr.io/btwonion/discordwebhooksender:latest
     container_name: discord-webhook-sender
     restart: unless-stopped
     environment:

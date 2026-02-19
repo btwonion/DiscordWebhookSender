@@ -37,7 +37,7 @@ Use the provided `docker-compose.yml`:
 ```yaml
 services:
   discord-webhook-bot:
-    image: ghcr.io/btwonion/DiscordWebhookSender:latest
+    image: ghcr.io/btwonion/discordwebhooksender:latest
     environment:
       - DISCORD_TOKEN=your_token_here
       - WEBHOOK_URL=https://your-api-endpoint.com/webhook
