@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   discord-webhook-sender:
     image: ghcr.io/btwonion/discordwebhooksender:latest
